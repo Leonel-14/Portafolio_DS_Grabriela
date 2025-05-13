@@ -1,0 +1,75 @@
+@font-face {
+    font-family: VASQUZ;
+    src: url('/fonts/VASQUZ.otf')
+}
+@font-face {
+    font-family: BRITANIC;
+    src: url('/fonts/BRITANIC.TTF')
+}
+*{
+    box-sizing: border-box !important;
+    margin: 0 ; 
+    padding: 0 ;
+}
+
+
+.nav{
+    background-color: #2D2151;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    height: min-content;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+
+.cont_titulo_links{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+}
+.titulo_portafolio h2{
+    font-family: VASQUZ !important;
+    font-size: 1.3em  !important;
+    margin: 0 !important;
+    font-weight: bold;
+}
+.cont_logo{
+    margin-left: 10px;
+    width: 40px;
+}
+.cont_logo img{
+    width: 100%;
+}
+.cont_links{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.cont_links ul{ 
+    display: flex;
+    font-size: 1.2em;
+    list-style: none;
+    margin-right: 10px;
+
+}
+.cont_links ul li{
+    margin-left: 20px;
+    font-family: VASQUZ;
+    border-radius: 10px;
+    background-color: rgb(140, 138, 168);
+    padding: 2px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.cont_links ul li a, .cont_links ul li a:visited, .cont_links ul li a:link{
+    text-decoration: none;
+    color: white;
+}
+.cont_links ul li:hover{
+    background-color:rgb(87, 86, 105);
+}

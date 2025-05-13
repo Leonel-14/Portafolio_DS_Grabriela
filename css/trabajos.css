@@ -1,0 +1,89 @@
+@font-face {
+    font-family: BRITANIC;
+    src: url('/fonts/BRITANIC.TTF')
+}
+*{
+    color: white;
+}
+.seccion_trabajos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.cont_titulo_trabajos{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cont_img_trabajos{
+    width: 450px;
+}
+.cont_img_trabajos img{
+    width: 100%;
+}
+.cont_carrusel_descripcion{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.cont_carrusel{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.carrusel{
+ width: 500px;
+ height: 300px;
+ overflow:auto;
+ border: 10px solid white;
+}
+.cont_descripcion_del_carrusel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.carrusel img{
+    width: 100%;
+}
+.bt1-r,.bt2-r,.bt3-r{
+    
+    left: 42% !important;
+}
+.bt1-l,.bt2-l,.bt3-l{
+    left: 5% !important;
+}
+.bt1-r,.bt2-r,.bt3-r, .bt1-r,.bt1-l,.bt2-l,.bt3-l{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    background-color: transparent;
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: black;
+    transition: background-color 0.5s;
+}
+.bt1-r:hover,.bt2-r:hover,.bt3-r:hover, .bt1-r:hover,.bt1-l:hover,.bt2-l:hover,.bt3-l:hover{
+    background-color: rgb(60, 60, 60);
+}
+.bt1-l, .bt1-r{
+    top: 70% !important;
+}
+.bt2-l, .bt2-r{
+    top: 115% !important;
+}
+.bt3-l, .bt3-r{
+    top: 160% !important;
+}
+

@@ -1,0 +1,38 @@
+@import "estilo_header.css";
+@font-face {
+    font-family: BRITANIC;
+    src: url('/fonts/BRITANIC.TTF')
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/img/fondo_alt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.seccion_principal{
+    width: 100%;
+    height: 100vh - --vh-restante;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.nombre{
+    font-family: BRITANIC;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+.cont_logo_body{
+    width: 450px;
+}
+.cont_logo_body img{
+    width: 100%;
+}

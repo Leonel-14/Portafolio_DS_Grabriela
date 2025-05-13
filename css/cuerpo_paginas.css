@@ -1,0 +1,8 @@
+@import url("estilo_header.css");
+
+body{
+    background-image: url('/img/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
