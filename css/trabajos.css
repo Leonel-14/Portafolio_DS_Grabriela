@@ -2,6 +2,10 @@
     font-family: BRITANIC;
     src: url('/fonts/BRITANIC.TTF')
 }
+@font-face {
+    font-family: Bebas;
+    src: url('/fonts/BebasNeue-Regular.otf');
+}
 *{
     color: white;
 }
@@ -44,6 +48,7 @@
  height: 300px;
  overflow:auto;
  border: 10px solid white;
+ 
 }
 .cont_descripcion_del_carrusel{
     display: flex;
@@ -52,6 +57,8 @@
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
+    font-family: Bebas;
+    font-size: 1.5em;
 }
 .carrusel img{
     width: 100%;
@@ -85,5 +92,8 @@
 }
 .bt3-l, .bt3-r{
     top: 160% !important;
+}
+.trabajos{
+    margin-bottom: 50px;
 }
 

@@ -2,6 +2,14 @@
     font-family: Britanic;
     src: url("/fonts/BRITANIC.TTF");
 }
+@font-face {
+    font-family: VASQUZ;
+    src: url('/fonts/VASQUZ.otf')
+}
+@font-face {
+    font-family: Bebas;
+    src: url('/fonts/BebasNeue-Regular.otf');
+}
 *{
     color: white;
 }
@@ -21,6 +29,7 @@
     -webkit-perspective: 800;
 }
 .carta{
+    font-family: Bebas;
     position: relative;
     width: 18em;
     height: 30em;
@@ -34,6 +43,9 @@
     height: 90%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+.frente p, .atras p{
+    font-size: 1em;
 }
 .frente,.atras{
     width: 100%;
@@ -84,4 +96,7 @@
 .cont_habilidades_img img{
     width: 100%;
     border-radius: 30px;
+}
+.titulo_habilidad{
+    font-family: VASQUZ;
 }

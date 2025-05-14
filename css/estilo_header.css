@@ -33,9 +33,9 @@
     color: white;
 }
 .titulo_portafolio h2{
-    font-family: VASQUZ !important;
-    font-size: 1.3em  !important;
-    margin: 0 !important;
+    font-family: VASQUZ ;
+    font-size: 2em  ;
+    margin: 0;
     font-weight: bold;
 }
 .cont_logo{
